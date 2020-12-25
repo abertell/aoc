@@ -168,7 +168,6 @@ for i in a:
         l=[int(''.join(k),2)for k in c]
         for v in l:s[v]=int(e)
 print(sum(s[i]for i in s))
-
 _='''15'''
 l=[0,14,1,3,7,9];u={0:0,14:1,1:2,3:3,7:4,9:5}
 while len(l)<3*10**7:
